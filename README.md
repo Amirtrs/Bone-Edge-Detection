@@ -39,35 +39,7 @@ Active Contour Segmentation: The activecontour function uses the Chan-Vese metho
 Example Output
 After running the script, the original image will be displayed with the detected contours overlaid, allowing for visual verification of the segmentation.
 
-Contributing
-Fork the repository.
-Create a new branch for your feature or bugfix (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request to discuss and review your changes.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Next Steps
-After creating the repository, add your code by running the following commands in the terminal:
 
-bash
-Copy code
-# Navigate to the project folder
-cd path/to/your/project
 
-# Initialize git
-git init
 
-# Add remote origin
-git remote add origin https://github.com/Amirtrs/Bone-Edge-Detection.git
-
-# Add all files
-git add .
-
-# Commit the changes
-git commit -m "Initial commit with MATLAB code for bone edge detection and contour overlay"
-
-# Push to GitHub
-git push -u origin main
-Copy code
