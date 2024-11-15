@@ -13,7 +13,7 @@ This project performs edge detection and contour overlay on bone images using MA
 
 ### Prerequisites
 
-- **MATLAB** with **Image Processing Toolbox**
+- MATLAB with Image Processing Toolbox
 
 ### Installation
 
@@ -21,9 +21,7 @@ This project performs edge detection and contour overlay on bone images using MA
    ```bash
    git clone https://github.com/Amirtrs/Bone-Edge-Detection.git
 Open MATLAB and navigate to the cloned folder.
-
 Run the main script to perform the edge detection and contour overlay.
-
 Usage
 To execute the project:
 
@@ -34,14 +32,10 @@ Detected edges with Sobel operator
 Hough transform analysis
 Final contour overlay on the original image
 Code Explanation
-Filtering:
-A Gaussian filter is applied to smooth the image, controlled by parameter B.
-Edge Detection:
-The Sobel method is used to detect edges, followed by morphological operations to close small gaps in the edges.
-Hough Transform:
-The Hough transform is used to find prominent angles within the detected edges. Peaks are identified based on a threshold.
-Active Contour Segmentation:
-The activecontour function uses the Chan-Vese method to refine the segmentation of the bone regions.
+Filtering: A Gaussian filter is applied to smooth the image, controlled by parameter B.
+Edge Detection: The Sobel method is used to detect edges, followed by morphological operations to close small gaps in the edges.
+Hough Transform: The Hough transform is used to find prominent angles within the detected edges. Peaks are identified based on a threshold.
+Active Contour Segmentation: The activecontour function uses the Chan-Vese method to refine the segmentation of the bone regions.
 Example Output
 After running the script, the original image will be displayed with the detected contours overlaid, allowing for visual verification of the segmentation.
 
@@ -76,3 +70,4 @@ git commit -m "Initial commit with MATLAB code for bone edge detection and conto
 
 # Push to GitHub
 git push -u origin main
+Copy code
